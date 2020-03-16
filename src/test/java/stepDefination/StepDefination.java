@@ -16,6 +16,7 @@ public class StepDefination {
         System.out.println("navigated to login URL");
         System.out.println("navigated to login second_URL");
         System.out.println("navigated to login Thirdtime_URL");
+        System.out.println("crating the branch");
     }
 
     @When("^User login into application with username \"([^\"]*)\" and password \"([^\"]*)\"$")
@@ -24,6 +25,7 @@ public class StepDefination {
     	System.out.println(strArg2);
         System.out.println("Logedd in success");
         System.out.println("Logedd in second success");
+        System.out.println("crating the branch");
     }
 
     @Then("^Home page is populated$")
@@ -31,6 +33,7 @@ public class StepDefination {
         //code to home page validation
     	 System.out.println("validated the home page");
     	 System.out.println("validated the home page second time");
+    	 System.out.println("crating the branch");
     }
     
     @And("^Cards displayed are \"([^\"]*)\"$")
@@ -38,6 +41,7 @@ public class StepDefination {
     	//code validating the cards..
    	    System.out.println("validated the card");
    	 System.out.println("validated the card 2 times");
+   	System.out.println("crating the branch");
    	 System.out.println(strArg1);
     }
 
