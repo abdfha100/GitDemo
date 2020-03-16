@@ -15,6 +15,7 @@ public class StepDefination {
     public void user_is_on_netbanking_landing_page() throws Throwable {
         System.out.println("navigated to login URL");
         System.out.println("navigated to login second_URL");
+        System.out.println("navigated to login Thirdtime_URL");
     }
 
     @When("^User login into application with username \"([^\"]*)\" and password \"([^\"]*)\"$")
