@@ -14,6 +14,7 @@ public class StepDefination {
     @Given("^User is on NetBanking landing page$")
     public void user_is_on_netbanking_landing_page() throws Throwable {
         System.out.println("navigated to login URL");
+        System.out.println("navigated to login second_URL");
     }
 
     @When("^User login into application with username \"([^\"]*)\" and password \"([^\"]*)\"$")
@@ -21,18 +22,21 @@ public class StepDefination {
     	System.out.println(strArg1);
     	System.out.println(strArg2);
         System.out.println("Logedd in success");
+        System.out.println("Logedd in second success");
     }
 
     @Then("^Home page is populated$")
     public void home_page_is_populated() throws Throwable {
         //code to home page validation
     	 System.out.println("validated the home page");
+    	 System.out.println("validated the home page second time");
     }
     
     @And("^Cards displayed are \"([^\"]*)\"$")
     public void cards_displayed_are_something(String strArg1) throws Throwable {
     	//code validating the cards..
    	    System.out.println("validated the card");
+   	 System.out.println("validated the card 2 times");
    	 System.out.println(strArg1);
     }
 
